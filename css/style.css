@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../Font/Vazir.eot") format("eot"),
+    url("../Font/Vazir.ttf") format("truetype"),
+    url("../Font/Vazir.woff") format("woff2"),
+    url("../Font/Vazir.woff2") format("woff");
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Vazir;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+}
+
+*{
+    font-family: Vazir;
+}
+
+.s1 {
+  background: url(../images/1.jpg);
+  background-size: cover;
+}
+
+.s2 {
+  background: url(../images/2.jpg);
+  background-size: cover;
+}
+
+.s3 {
+  background: url(../images/3.jpg);
+  background-size: cover;
+}
+
+.s4 {
+  background: url(../images/4.jpg);
+  background-size: cover;
+}
+
+.s5 {
+  background: #000;
+}
