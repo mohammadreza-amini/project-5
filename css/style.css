@@ -26,6 +26,54 @@ body {
   background-size: cover;
 }
 
+.s1 ul{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s1 ul li{
+  list-style: none;
+  margin: 0 23px;
+}
+
+.s1 ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+.s1 .fp-controlArrow.fp-prev{
+  position: absolute;
+  top: 92%;
+  left: 45px;
+  border-width: 16px 20px 16px 0;
+}
+
+.s1 .fp-controlArrow.fp-next {
+  position: absolute;
+  top: 92%;
+  right: 93%;
+  border-width: 16px 0 16px 20px;
+}
+
+.s1 h1{
+  text-align: left;
+  width: 90%;
+  color: #fff;
+  font-size: 40px;
+  margin-top: -180px;
+}
+
+.s1 h1 a{
+  color: #ff5722;
+  text-decoration: none;
+  margin-right: 4px;
+}
+
 .s2 {
   background: url(../images/2.jpg);
   background-size: cover;
@@ -43,4 +91,12 @@ body {
 
 .s5 {
   background: #000;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+  background: #fff !important;
+}
+
+#fp-nav ul li a.active span{
+  background: #c00 !important;
 }
