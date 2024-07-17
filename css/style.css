@@ -17,14 +17,14 @@ body {
   padding: 0;
 }
 
-*{
-    font-family: Vazir;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    outline: none;
+* {
+  font-family: Vazir;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
 }
 
 .s1 {
@@ -32,7 +32,7 @@ body {
   background-size: cover;
 }
 
-.s1 ul{
+.s1 ul {
   position: absolute;
   top: 0;
   width: 100%;
@@ -42,18 +42,18 @@ body {
   top: 1.5%;
 }
 
-.s1 ul li{
+.s1 ul li {
   list-style: none;
   margin: 0 23px;
 }
 
-.s1 ul li a{
+.s1 ul li a {
   text-decoration: none;
   color: #fff;
   font-size: 13px;
 }
 
-.s1 .fp-controlArrow.fp-prev{
+.s1 .fp-controlArrow.fp-prev {
   position: absolute;
   top: 92%;
   left: 45px;
@@ -67,7 +67,7 @@ body {
   border-width: 16px 0 16px 20px;
 }
 
-.s1 h1{
+.s1 h1 {
   text-align: left;
   width: 90%;
   color: #fff;
@@ -75,7 +75,7 @@ body {
   margin-top: -180px;
 }
 
-.s1 h1 a{
+.s1 h1 a {
   color: #ff5722;
   text-decoration: none;
   margin-right: 4px;
@@ -86,34 +86,34 @@ body {
   background-size: cover;
 }
 
-.s2 .secttionTwo{
+.s2 .secttionTwo {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.s2 .secttionTwo h1{
+.s2 .secttionTwo h1 {
   width: 100%;
   text-align: center;
   font-size: 55px;
   margin-bottom: 40px;
 }
 
-.s2 .secttionTwo h1 span{
+.s2 .secttionTwo h1 span {
   color: #c00;
 }
 
-.s2 .secttionTwo ul{
+.s2 .secttionTwo ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.s2 .secttionTwo ul li{
+.s2 .secttionTwo ul li {
   width: 49%;
-  background-color: rgba(255, 255, 255, .75);
+  background-color: rgba(255, 255, 255, 0.75);
   text-align: center;
   margin-top: 10px;
   padding: 10px;
@@ -124,15 +124,15 @@ body {
   -o-border-radius: 10px;
 }
 
-.s2 .secttionTwo ul li a{
+.s2 .secttionTwo ul li a {
   color: #000;
 }
 
-.s2 .secttionTwo ul li svg{
+.s2 .secttionTwo ul li svg {
   font-size: 120px;
 }
 
-.s2 .secttionTwo ul li a h5{
+.s2 .secttionTwo ul li a h5 {
   padding: 20px 0;
 }
 
@@ -141,14 +141,14 @@ body {
   background-size: cover;
 }
 
-.s3 .secttionThree{
+.s3 .secttionThree {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.s3 .secttionThree h1{
+.s3 .secttionThree h1 {
   font-size: 55px;
   color: #fff;
   width: 100%;
@@ -156,11 +156,11 @@ body {
   /* margin-bottom: 50px; */
 }
 
-.s3 .secttionThree h1 span{
+.s3 .secttionThree h1 span {
   color: #ca9431;
 }
 
-.s3 .secttionThree ul{
+.s3 .secttionThree ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -168,9 +168,9 @@ body {
   width: 40%;
 }
 
-.s3 .secttionThree ul li{
+.s3 .secttionThree ul li {
   width: 49%;
-  background-color: rgba(255, 255, 255, .75);
+  background-color: rgba(255, 255, 255, 0.75);
   text-align: center;
   margin-top: 10px;
   padding: 10px;
@@ -181,7 +181,7 @@ body {
   -o-border-radius: 10px;
 }
 
-.s3 .secttionThree ul li img{
+.s3 .secttionThree ul li img {
   width: 100%;
   height: 185px;
 }
@@ -191,14 +191,14 @@ body {
   background-size: cover;
 }
 
-.s4 .secttionFour{
+.s4 .secttionFour {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.s4 .secttionFour h1{
+.s4 .secttionFour h1 {
   font-size: 50px;
   color: #fff;
   width: 100%;
@@ -206,38 +206,38 @@ body {
   margin-top: 50px;
 }
 
-.s4 .secttionFour h1 span{
+.s4 .secttionFour h1 span {
   color: #94f1c3;
 }
 
-.s4 .secttionFour form{
+.s4 .secttionFour form {
   width: 25%;
 }
 
-.s4 .secttionFour form input{
+.s4 .secttionFour form input {
   width: 100%;
   padding: 8px;
   font-family: Vazir;
   margin-top: 10px;
-  background: rgba(0,0,0, .75);
+  background: rgba(0, 0, 0, 0.75);
   border: 3.5px solid #333;
   font-size: 15px;
   color: #fff;
 }
 
-.s4 .secttionFour form textarea{
+.s4 .secttionFour form textarea {
   width: 100%;
   resize: none;
   height: 150px;
   margin-top: 10px;
   padding: 10px;
-  background: rgba(0,0,0, .75);
+  background: rgba(0, 0, 0, 0.75);
   border: 3.5px solid #333;
   font-size: 15px;
   color: #fff;
 }
 
-.s4 .secttionFour form input[type=submit]{
+.s4 .secttionFour form input[type="submit"] {
   margin-top: 10px;
   border: none;
   background: #c00;
@@ -246,19 +246,62 @@ body {
   cursor: pointer;
 }
 
-::placeholder{
+::placeholder {
   color: rgb(190, 190, 190);
 }
 
-
 .s5 {
   background: #000;
+  text-align: center;
 }
 
-#fp-nav ul li a span, .fp-slidesNav ul li a span{
+.s5 .footer {
+  width: 770px;
+  margin: auto;
+}
+
+.s5 .footer .footr-about {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.s5 .footer ul {
+  width: 770px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.s5 .footer ul li {
+  width: 24%;
+  margin-top: 15px;
+}
+
+.s5 .footer ul li img{
+  width: 100%;
+}
+
+.s5 .footer .footer-car h2{
+  color: #fff;
+  margin: 20px 0 20px 0;
+}
+
+.s5 .footer .footr-copyright {
+  color: #fff;
+}
+
+.s5 .footer .footr-copyright p{
+  margin-top: 20px;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
   background: #fff !important;
 }
 
-#fp-nav ul li a.active span{
+#fp-nav ul li a.active span {
   background: #c00 !important;
 }
