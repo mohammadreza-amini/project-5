@@ -37,14 +37,16 @@ body {
   top: 0;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
+  right: 5%;
   top: 1.5%;
+  z-index: 1000;
 }
 
 .s1 ul li {
   list-style: none;
-  margin: 0 23px;
+  margin: 0 17px;
 }
 
 .s1 ul li a {
@@ -122,6 +124,7 @@ body {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  cursor: pointer;
 }
 
 .s2 .secttionTwo ul li a {
@@ -256,7 +259,7 @@ body {
 }
 
 .s5 .footer {
-  width: 770px;
+  width: 700px;
   margin: auto;
 }
 
@@ -266,13 +269,17 @@ body {
   margin-top: 15px;
 }
 
+.s5 .footer .footr-about h2{
+padding-bottom: 10px;
+}
+
 .s5 .footer ul {
-  width: 770px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 35px;
+  margin-top: 5px;
 }
 
 .s5 .footer ul li {
@@ -286,15 +293,16 @@ body {
 
 .s5 .footer .footer-car h2{
   color: #fff;
-  margin: 20px 0 20px 0;
+  margin: 35px 0 10px 0;
 }
 
 .s5 .footer .footr-copyright {
   color: #fff;
 }
 
-.s5 .footer .footr-copyright p{
-  margin-top: 20px;
+.s5 .footer .footr-copyright h4{
+  margin: 20px 0 15px 0;
+  font-size: 12px;
 }
 
 #fp-nav ul li a span,
